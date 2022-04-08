@@ -59,7 +59,7 @@ public class Main {
                 Android android = new Android(wscore, cscore, iscore);
                 Web web = new Web(wscore, cscore, iscore);
 
-                System.out.println("Final Score : ");
+                System.out.print("Final Score : ");
                 if (menu == 1) {
                     System.out.println(android.result());
                 }
@@ -68,7 +68,7 @@ public class Main {
                     System.out.println(web.result());
                 }
                 
-                System.out.println("INFORMATION : ");
+                System.out.print("INFORMATION : ");
                 if (menu == 1) {
                     System.out.println(android.information(android.result()));
                     if (android.information(android.result()) == "PASSED") {
